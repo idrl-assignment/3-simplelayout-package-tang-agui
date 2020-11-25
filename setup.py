@@ -21,6 +21,7 @@ setuptools.setup(
     ],
     keywords="Simplelayout package",
     package_dir={'': 'src'},
+    include_package_data=True,
     install_requires=[
         'pytest',
         'numpy',
