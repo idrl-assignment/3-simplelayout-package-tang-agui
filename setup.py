@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="simplelayout-tang-agui", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Tang guijian",
     author_email="tangbanllniu@163.com",
     # license="MIT",
@@ -29,7 +29,7 @@ setuptools.setup(
         'scipy'
     ],
     python_requires='>=3.6',
-    entry_point={
+    entry_points={
         'console_scripts':[
             'simplelayout=simplelayout.__main__:main'
         ]
