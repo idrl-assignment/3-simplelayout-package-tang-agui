@@ -16,7 +16,7 @@
 
 
 # -- Project information -----------------------------------------------------
-
+# 设置参数的时候，不输入就是默认参数
 project = '3-simplelayout-package-tang-agui'
 copyright = '2020, tangguijian'
 author = 'tangguijian'

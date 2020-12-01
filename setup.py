@@ -11,7 +11,7 @@ setuptools.setup(
     # license="MIT",
     description="A simplelayout package",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/markdown",  # 上下两行这个地方必须设置，设置为MD格式
     url="https://github.com/idrl-assignment/3-simplelayout-package-tang-agui",
     packages=setuptools.find_packages(where='src'),
     classifiers=[
